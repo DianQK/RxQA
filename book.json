@@ -1,0 +1,22 @@
+{
+   "title": "Rx 问答",
+   "description": "如果您没有从下面的 Issue 中找到满意的解答，可以在 GitHub 上提新的 Issue",
+   "plugins": [
+        "theme-faq",
+        "editlink",
+        "image-captions",
+        "github",
+        "prism",
+        "-highlight"
+      ],
+  "pluginsConfig": {
+    "editlink": {
+      "base": "https://github.com/DianQK/RxQA/issues",
+      "label": "提 Issue",
+      "multilingual": false
+    },
+    "github": {
+            "url": "https://github.com/DianQK/RxQA"
+        }
+  }
+}
